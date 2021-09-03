@@ -1,0 +1,36 @@
+@use '../abstracts' as a;
+body {
+    display: block;
+    margin: 8px;
+    background-color: a.$white_low;
+}
+
+main {
+    margin: 80px;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.main__container--user {
+    border: solid 1px black;
+    max-width: 279px;
+}
+
+.main__container--user--info-form {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.main__container--user--info-form-input {
+    padding-left: 24px;
+}
+
+input {
+    height: 30px;
+}
