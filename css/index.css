@@ -16,7 +16,6 @@ main {
 }
 
 .main__container--user {
-  border: solid 1px black;
   max-width: 279px;
 }
 
@@ -31,5 +30,137 @@ main {
 }
 
 input {
+  height: 25px;
+  gap: 3px;
+  margin: 4px;
+  width: 235px;
+  font-size: 12px;
+}
+
+.main__container--user--info-form-submit {
+  gap: 3px;
   height: 30px;
+  margin: 4px;
+  width: 235px;
+  background-color: #b2dffc;
+  border-radius: 0.2rem;
+}
+
+.main__container--user--division {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  padding-left: 24px;
+  padding-top: 1.5rem;
+}
+
+.main__container--user--division-line1 {
+  height: 1.3px;
+  width: 100px;
+  background-color: #dbdbdb;
+}
+
+.main__container--user--division-line2 {
+  height: 1.3px;
+  width: 100px;
+  background-color: #dbdbdb;
+}
+
+.main__container--user--facebook {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-left: 24px;
+}
+
+.main__container--user--facebook-logo {
+  max-width: 20px;
+  max-height: 20px;
+  padding-right: 5px;
+}
+
+.main__container--user--facebook-text {
+  font-size: small;
+}
+
+.main__container--user--getapp-apple {
+  max-height: 2.5rem;
+  max-width: 8rem;
+}
+
+.main__container--user--getapp-playstore {
+  max-height: 2.5rem;
+  max-width: 8rem;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  margin: 15px;
+  align-items: baseline;
+}
+
+.header__container-img {
+  padding-left: 3.5rem;
+  padding-right: 9rem;
+}
+
+.header__container-search {
+  padding-right: 3.5rem;
+}
+
+.header__container-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__container-icons-home {
+  margin: 14px;
+}
+
+.header__container-icons-direct {
+  margin: 14px;
+}
+
+.header__container-icons-new {
+  margin: 14px;
+}
+
+.header__container-icons-people {
+  margin: 14px;
+}
+
+.header__container-icons-activity {
+  margin: 14px;
+}
+
+.header__container-icons-user {
+  margin: 14px;
+}
+
+.body__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  border: 1px solid grey;
+  margin-top: 1.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.body__container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  max-height: 50px;
+  max-height: 50px;
+}
+
+.body__container-header-img {
+  max-width: 20px;
+  max-height: 20px;
 }/*# sourceMappingURL=index.css.map */
